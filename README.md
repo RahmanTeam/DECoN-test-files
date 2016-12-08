@@ -8,7 +8,7 @@ On Mac/linux, run the below commands, replacing "/path/to/" with the correct fil
 
 cd /path/to/DECoN
 
-Rscript ReadInBams.R --bams DECoN-test-files-1.0.0 --bed /path/to/DECoN-test-files-1.0.0/test_Target_Regions.bed --fasta /path/to/human_g1k_v37.fasta --out test
+Rscript ReadInBams.R --bams /path/to/DECoN-test-files-1.0.0 --bed /path/to/DECoN-test-files-1.0.0/test_Target_Regions.bed --fasta /path/to/human_g1k_v37.fasta --out test
 
 Rscript IdentifyFailures.R --Rdata test.RData --exons /path/to/DECoN-test-files-1.0.0/test_customNumbering.txt --custom TRUE --out testFailures
 
